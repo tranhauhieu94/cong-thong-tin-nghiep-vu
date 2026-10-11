@@ -23,7 +23,7 @@ Website được xây dựng trong khuôn khổ đồ án môn học **Nhập m�
 
 * Quy trình nghiệp vụ
 
-## 4. Công nghệ sử dụng
+## 3. Công nghệ sử dụng
 
 | Công nghệ | Chức năng |
 |---|---|
