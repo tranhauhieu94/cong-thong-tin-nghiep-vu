@@ -14,59 +14,17 @@ Việc xử lý thực tế phải tuân thủ quy định pháp luật hiện h
 
 ## 3. Quy trình thực hiện
 
-### Bước 1. Phát hiện sự cố
+| Bước | Tên bước | Nội dung / Công việc chính | Lưu ý / Yêu cầu quan trọng |
+| :--- | :--- | :--- | :--- |
+| **Bước 1** | **Phát hiện sự cố** | - Kiểm tra hệ thống điều hành, trạng thái kết nối.<br>- Kiểm tra dữ liệu đo và các cảnh báo được ghi nhận. | Ghi nhận đầy đủ: Tên cơ sở/trạm, thời điểm phát hiện, thông số ảnh hưởng, trạng thái thiết bị/đường truyền và thời gian gián đoạn (nếu có). |
+| **Bước 2** | **Kiểm tra và xác minh** | - Kiểm tra trạng thái kết nối và thời gian cập nhật dữ liệu gần nhất.<br>- So sánh dữ liệu hiện tại với dữ liệu trước đó.<br>- Kiểm tra cảnh báo, nhật ký hoạt động và xác minh nguyên nhân (thiết bị, đường truyền, máy chủ). | Không kết luận nếu chưa có thông tin xác minh phù hợp. |
+| **Bước 3** | **Thông báo sự cố** | Chuyển thông tin sự cố đến đầu mối phụ trách của cơ sở, đơn vị vận hành hoặc bộ phận kỹ thuật liên quan. | Nội dung thông báo cần nêu rõ: Thời điểm, hiện trạng, thiết bị/thông số ảnh hưởng, nguy cơ gián đoạn dữ liệu, yêu cầu kiểm tra và thời hạn phản hồi. |
+| **Bước 4** | **Phối hợp khắc phục** | - Đơn vị vận hành trạm kiểm tra hiện trường, xác định nguyên nhân và khắc phục.<br>- Cán bộ theo dõi ghi nhận quá trình xử lý, thời điểm khôi phục và tài liệu liên quan. | Việc phải do người có chuyên môn thực hiện, đảm bảo an toàn và không làm sai lệch dữ liệu. |
+| **Bước 5** | **Kiểm tra sau khắc phục** | Kiểm tra: Trạm kết nối trở lại chưa, dữ liệu mới có truyền về không, chu kỳ cập nhật có phù hợp không, thông số có ổn định không và hồ sơ đã được cập nhật chưa. | Đảm bảo hệ thống đã hoạt động bình thường và thông suốt trước khi đóng quy trình kiểm tra. |
+| **Bước 6** | **Lập hồ sơ và theo dõi** | Lưu trữ thông báo sự cố, hình ảnh, nhật ký, biên bản kiểm tra và các tài liệu liên quan theo quy định. | Đối với sự cố kéo dài hoặc tái diễn, cần tổng hợp và báo cáo người có thẩm quyền để xem xét biện pháp xử lý tiếp theo. |
 
-Cán bộ theo dõi kiểm tra hệ thống điều hành, trạng thái kết nối, dữ liệu đo và các cảnh báo được ghi nhận.
+## 5. Sơ đồ quy trình
 
-Khi phát hiện dấu hiệu bất thường, cần ghi nhận:
+Sơ đồ các bước xử lý sự cố hệ thống quan trắc môi trường tự động:
 
-- Tên cơ sở và tên trạm.
-- Thời điểm phát hiện.
-- Thông số bị ảnh hưởng.
-- Trạng thái thiết bị và đường truyền.
-- Khoảng thời gian dữ liệu bị gián đoạn, nếu xác định được.
-
-### Bước 2. Kiểm tra và xác minh
-
-Thực hiện kiểm tra từ xa trong phạm vi được phân công:
-
-1. Kiểm tra trạng thái kết nối của trạm.
-2. Kiểm tra thời gian cập nhật dữ liệu gần nhất.
-3. So sánh dữ liệu hiện tại với dữ liệu trước đó.
-4. Kiểm tra cảnh báo và nhật ký hoạt động.
-5. Xác minh khả năng lỗi do thiết bị, đường truyền hoặc máy chủ.
-
-Không kết luận thiết bị hỏng chỉ dựa trên một giá trị bất thường nếu chưa có thông tin xác minh phù hợp.
-
-### Bước 3. Thông báo sự cố
-
-Thông tin sự cố được chuyển đến đầu mối phụ trách của cơ sở, đơn vị vận hành hoặc bộ phận kỹ thuật có liên quan.
-
-Nội dung thông báo cần nêu rõ:
-
-- Thời điểm và hiện trạng sự cố.
-- Thiết bị hoặc thông số bị ảnh hưởng.
-- Dữ liệu có nguy cơ bị gián đoạn.
-- Yêu cầu kiểm tra và thời hạn phản hồi theo quy định áp dụng.
-
-### Bước 4. Phối hợp khắc phục
-
-Đơn vị có trách nhiệm vận hành trạm kiểm tra tại hiện trường, xác định nguyên nhân và thực hiện biện pháp khắc phục.
-
-Cán bộ theo dõi hệ thống ghi nhận quá trình xử lý, thời điểm khôi phục và các tài liệu do đơn vị cung cấp.
-
-Việc can thiệp thiết bị phải do người có chuyên môn thực hiện, đảm bảo an toàn và không làm sai lệch dữ liệu.
-
-### Bước 5. Kiểm tra sau khắc phục
-
-Sau khi đơn vị thông báo đã xử lý xong, cần kiểm tra:
-
-- Trạm đã kết nối trở lại hay chưa.
-- Dữ liệu mới có được truyền về hệ thống hay không.
-- Thời gian và chu kỳ cập nhật có phù hợp hay không.
-- Các thông số có hoạt động ổn định hay không.
-- Hồ sơ sự cố đã được cập nhật đầy đủ hay chưa.
-
-### Bước 6. Lập hồ sơ và theo dõi
-
-Lưu trữ thông báo sự cố, hình ảnh, nhật ký, biên bản kiểm tra và tài liệu liên quan theo quy định.
+![Sơ đồ quy trình xử lý sự cố quan trắc tự động](Sơ đồ quy trình xử lý sự cố.png)
