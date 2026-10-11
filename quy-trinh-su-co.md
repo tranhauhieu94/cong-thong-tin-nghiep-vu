@@ -23,8 +23,10 @@ Việc xử lý thực tế phải tuân thủ quy định pháp luật hiện h
 | **Bước 5** | **Kiểm tra sau khắc phục** | Kiểm tra: Trạm kết nối trở lại chưa, dữ liệu mới có truyền về không, chu kỳ cập nhật có phù hợp không, thông số có ổn định không và hồ sơ đã được cập nhật chưa. | Đảm bảo hệ thống đã hoạt động bình thường và thông suốt trước khi đóng quy trình kiểm tra. |
 | **Bước 6** | **Lập hồ sơ và theo dõi** | Lưu trữ thông báo sự cố, hình ảnh, nhật ký, biên bản kiểm tra và các tài liệu liên quan theo quy định. | Đối với sự cố kéo dài hoặc tái diễn, cần tổng hợp và báo cáo người có thẩm quyền để xem xét biện pháp xử lý tiếp theo. |
 
-## 5. Sơ đồ quy trình
+## 4. Sơ đồ quy trình
 
 Sơ đồ các bước xử lý sự cố hệ thống quan trắc môi trường tự động:
 
 ![Sơ đồ quy trình xử lý sự cố quan trắc tự động](Sơ đồ quy trình xử lý sự cố.png)
+
+> **Lưu ý thực hiện:** Phân biệt rõ thời gian xảy ra sự cố, thời gian phát hiện và thời gian khắc phục, lưu bằng chứng, chuyển cấp xử lý khi sự cố vượt thẩm quyền.
