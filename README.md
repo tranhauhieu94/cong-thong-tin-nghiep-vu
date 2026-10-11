@@ -7,7 +7,7 @@
 
 Chào mừng bạn đến với **Cổng Thông Tin Nghiệp Vụ**.
 
-Website được xây dựng trong khuôn khổ đồ án môn học **Nhập môn Công nghệ thông tin**, sử dụng GitHub Pages và Docsify để trình bày tài liệu dưới dạng Markdown.
+Website được xây dựng trong khuôn khổ đồ án môn học **Nhập môn Công nghệ thông tin**, sử dụng GitHub Pages và Docsify
 
 ## 1. Mục tiêu của website
 
@@ -17,11 +17,11 @@ Website được xây dựng trong khuôn khổ đồ án môn học **Nhập m�
 
 ## 2. Nội dung chính
 
-### Khái quát Quan trắc môi trường tự động
+* Khái quát Quan trắc môi trường tự động
 
-### Theo dõi dữ liệu
+* Theo dõi dữ liệu
 
-### Quy trình nghiệp vụ
+* Quy trình nghiệp vụ
 
 ## 4. Công nghệ sử dụng
 
