@@ -27,6 +27,6 @@ Việc xử lý thực tế phải tuân thủ quy định pháp luật hiện h
 
 Sơ đồ các bước xử lý sự cố hệ thống quan trắc môi trường tự động:
 
-![Sơ đồ quy trình xử lý sự cố quan trắc tự động](Sơ%20đồ%20quy%20trình%20xử%20lý%20sự%20cố.png)
+![Sơ đồ quy trình xử lý sự cố quan trắc tự động](so-do-quy-trinh.PNG)
 
 > **Lưu ý thực hiện:** Phân biệt rõ thời gian xảy ra sự cố, thời gian phát hiện và thời gian khắc phục, lưu bằng chứng, chuyển cấp xử lý khi sự cố vượt thẩm quyền.
